@@ -1,6 +1,7 @@
-var deliLine = [ ]
+var ticketNumber = 0;
 
-function takeANumber(line,number) {
+function takeANumber(line) {
+  ticketNumber += 1;
   line.push(number)
                                                                           //add new name to the end of the array
   return `Welcome, you are number ${line.length} in line.`;              // return text output
