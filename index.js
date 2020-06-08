@@ -2,9 +2,9 @@ var ticketNumber = 0;
 
 function takeANumber(line) {
   ticketNumber += 1;
-  line.push(number)
+  line.push(ticketNumber)
                                                                           //add new name to the end of the array
-  return `Welcome, you are number ${line.length} in line.`;              // return text output
+  return `Welcome, you are number ${ticketNumber} in line.`;              // return text output
 }
 
 function nowServing (line) {
