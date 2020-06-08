@@ -1,8 +1,8 @@
 var deliLine = [ ]
 
-function takeANumber(line,name) {
-  line.push(name)                                                                 //add new name to the end of the array
-  return `Welcome, ${name}. You are number ${line.length} in line.`;              // return text output
+function takeANumber(line,number) {
+  line.push(number)                                                                 //add new name to the end of the array
+  return `Welcome, you are number ${line.length} in line.`;              // return text output
 }
 
 function nowServing (line) {
